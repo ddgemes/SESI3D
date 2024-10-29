@@ -1,0 +1,158 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+}
+
+header{
+    background: rgb(85, 85, 85);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+.logo {
+    margin-right: auto;
+    margin-left: 11px;
+    cursor: pointer;
+    transition: all .5s ease .5s;
+}
+.logo:hover{
+    color:red ;
+    transform: rotate(3deg);
+}
+nav ul {
+    display: flex;
+    padding: 20px;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+li:hover {
+    transform: rotate(3deg);
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+a:hover{
+    color:red ;
+}
+.btn1 {
+    border: none;
+    margin-right: 11px;
+    font-size: 17px;
+    padding: 8px 8px;
+    background:orange;
+    color:black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(3, 78, 254);
+    color: white;
+    transform: rotate(3deg);
+    transition: all .5s ease-in-out;
+}
+
+.container {
+    max-width : 500px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.deskripsi{
+    font-size: 18px;
+}
+.img1 {
+    max-width: 75%;
+    height: auto;
+    padding: 10px;
+}
+
+.container2 {
+    background-image: url("aset/foto/foto1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(85, 85, 85);
+    color: whitesmoke;
+    padding: 20px;
+    margin-top: 100px;
+}
+.mtbtn {
+ margin-top: 20px;
+}
+.card{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 5px;
+gap: 15px;
+margin-top: 50px;
+}
+.cardItem {
+    width: 30%;
+    background: gray;
+    color: whitesmoke;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,1);
+}
+.icon{
+    width: 50px;
+    height: 70px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background: rgb(85, 85, 85);
+}
+@media screen and (max-width: 500px) {
+    .card {
+        flex-direction: column;
+    }
+    .cardItem{
+        width: 100%;
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background: rgb(85, 85, 85);
+        z-index: 9;
+    }
+    footer {
+        margin-bottom: 75px;
+    }
+}
