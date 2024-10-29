@@ -136,7 +136,7 @@ margin-top: 50px;
     height: 70px;
 }
 footer{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background: rgb(85, 85, 85);
 }
@@ -155,6 +155,6 @@ footer{
         z-index: 9;
     }
     footer {
-        margin-bottom: 75px;
+        margin-bottom: 70px;
     }
 }
