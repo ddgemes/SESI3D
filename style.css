@@ -29,7 +29,7 @@ header{
 }
 nav ul {
     display: flex;
-    padding: 20px;
+    padding: 30px;
 }
 li {
     list-style-type: none;
