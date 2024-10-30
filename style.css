@@ -15,11 +15,11 @@ header{
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 .logo {
     margin-right: auto;
-    margin-left: 11px;
+    margin-left: 10px;
     cursor: pointer;
     transition: all .5s ease .5s;
 }
@@ -29,7 +29,7 @@ header{
 }
 nav ul {
     display: flex;
-    padding: 30px;
+    padding: 25px;
 }
 li {
     list-style-type: none;
@@ -64,7 +64,7 @@ a:hover{
 }
 
 .container {
-    max-width : 500px;
+    max-width : 1000px;
     margin: 0 auto;
     padding: 0 auto;
 }
@@ -154,6 +154,6 @@ footer{
         z-index: 9;
     }
     footer {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 }
